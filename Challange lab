@@ -1,0 +1,11 @@
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Monitoring%20in%20Google%20Cloud%20Challenge%20Lab/quicklabarc115.sh
+
+sudo chmod +x quicklabarc115.sh
+
+./quicklabarc115.sh
+
+resource.type="gce_instance"
+logName="projects/YOUR_PROJECT_ID/logs/apache-access"
+textPayload:"200"
+
+execution took (\d+)
